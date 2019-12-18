@@ -1,19 +1,10 @@
 package program;
 
-import comparators.DiscountComparator;
-import comparators.FIOComparator;
-import findViaAbstractClass.FIOCostFinder;
-import findViaAbstractClass.FIOFinder;
-import findViaAbstractClass.Finder;
-import findViaInterface.CostFunctor;
 import model.Payment;
 import model.PaymentList;
-import findViaInterface.FIOFunctor;
 
 import java.io.IOException;
 import java.text.ParseException;
-import java.util.ArrayList;
-import java.util.Map;
 
 public class Program {
     public static void main(String[] args)  {
